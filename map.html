@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rain World Map</title>
+    <title>Winter's End Map</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <meta property="og:image" content="https://alduris.github.io/mod-map/embed.jpg" />
     <meta property="og:type" content="object" />
     <meta property="og:title" content="Rain World Map" />
     <meta property="og:url" content="https://alduris.github.io/mod-map/" />
-    <meta property="og:description" content="A custom, online interactive map for regions, vanilla or modded, in Rain World." />
+    <meta property="og:description" content="A custom, online interactive map for regions Winter's End." />
     <link rel="stylesheet" href="./rw.css" />
     <link rel="stylesheet" href="./leaflet/leaflet.css" />
 
@@ -520,7 +520,7 @@
             //console.log("newState");
             params = new URLSearchParams(document.location.search);
             region = params.get("region");
-            difficulty = params.get("slugcat") ?? "white";
+            difficulty = params.get("slugcat") ?? "snowflakecat";
             if (region == null) {
                 window.location.href = "index.html";
                 return;
